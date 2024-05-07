@@ -3,6 +3,7 @@ import "./navbar.scss";
 
 const Navbar = () => {
   const [open, setOpen] = useState(false);
+
   return (
     <nav>
       <div className="left">
